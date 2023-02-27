@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registrationRequest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="BuetLogo.png" width="50" height="40" class="d-inline-block align-top" alt="">
+            BUET   INSTITUTIONAL   INFORMATION   SYSTEM
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row" >
+        <div class="col-2" >
+            <div class="list-group" id="list-tab" role="tablist" >
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info" >Registration</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">View Grade</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">Student Feedback</a>
+                <div class="dropright">
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dues Status </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="background-color: #bee5eb">
+                        <a class="dropdown-item list-group-item-action list-group-item-info" href="#">Action</a>
+                        <a class="dropdown-item list-group-item-action list-group-item-info" href="#">Another action</a>
+                        <a class="dropdown-item list-group-item-action list-group-item-info" href="#">Something else here</a>
+                    </div>
+                </div>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">My Contact Information</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">My Adviser</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">Change Password</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">Change Secret Question</a>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="card" style="margin-right: 5%;margin-left: 15%;margin-top:1%">
+                <div class="card-header text-center">
+                   List of Offered Course
+                </div>
+                <div class="card-body">
+                    <p>Name: Muntasir Ahmed Muhammad</p>
+                    <p>Student No: 1705202</p>
+                    <p>Level/Term: L-2/T-II</p>
+                    <p>Department Name: Department of Computer Science And Engineering</p>
+                    <p>Term: January, 2020</p>
+                    <table class="table table-hover ">
+                        <thead>
+                        <tr>
+                            <th scope="col">Course Id</th>
+                            <th scope="col">Course Title</th>
+                            <th scope="col">Credit Hour</th>
+                            <th scope="col">Apply</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">CSE207</th>
+                            <td>Data Structure And Algorithm II</td>
+                            <td>3.0</td>
+                            <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">CSE211</th>
+                            <td>Theory of Computation</td>
+                            <td>3.0</td>
+                            <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">CSE215</th>
+                            <td >Database</td>
+                            <td>3.0</td>
+                            <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                        </tr>
+                        <tr>
+                            <th>EEE269</th>
+                            <td>Electrical Drives And Instrumental</td>
+                            <td>3.0</td>
+                            <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                        </tr>
+                        <tr>
+                            <th>MATH247</th>
+                            <td>Linear Algebra, Laplace Transformation and Fourier Analysis</td>
+                            <td>4.0</td>
+                            <td><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                        </tr>
+                        <tfoot >
+                            <th colspan=2 class="text-right">Total Credit Hour</th>
+                            <td >20.5</td>
+                        </tfoot>
+                        </tbody>
+                    </table>
+                    <button type="button" class="btn btn-info" style="margin-top: 2%">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
